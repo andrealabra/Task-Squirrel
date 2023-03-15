@@ -21,19 +21,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CB5750392929E62C00890962 /* TaskAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAnnotationView.swift; sourceTree = "<group>"; };
+		CB5750392929E62C00890962 /* TaskAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAnnotationView.swift; sourceTree = "<group>"; tabWidth = 5; };
 		CB602B9529247359006C6727 /* lab-task-squirrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lab-task-squirrel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB602B9829247359006C6727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB602B9A29247359006C6727 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB602B9C29247359006C6727 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		CB602B9C29247359006C6727 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; tabWidth = 5; wrapsLines = 0; };
 		CB602B9F29247359006C6727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB602BA12924735C006C6727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB602BA42924735C006C6727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB602BA62924735C006C6727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB602BAC292476F4006C6727 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
-		CB9D9ED0292483BC00F8F51B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		CB9D9ED3292488B000F8F51B /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
-		CB9D9ED9292489E000F8F51B /* TaskComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TaskComposeViewController.swift; path = ../TaskComposeViewController.swift; sourceTree = "<group>"; };
+		CB9D9ED0292483BC00F8F51B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		CB9D9ED3292488B000F8F51B /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; tabWidth = 5; wrapsLines = 0; };
+		CB9D9ED9292489E000F8F51B /* TaskComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TaskComposeViewController.swift; path = ../TaskComposeViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -342,6 +342,7 @@
 				DEVELOPMENT_TEAM = MA6H73S726;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "lab-task-squirrel/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -370,6 +371,7 @@
 				DEVELOPMENT_TEAM = MA6H73S726;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "lab-task-squirrel/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
